@@ -1,0 +1,25 @@
+{
+  "name": "gulp-md5-renamer",
+  "version": "0.0.1",
+  "description": "use md5 rename the static resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwsf/gulp-md5-renamer.git"
+  },
+  "keywords": [
+    "gulp-plguin",
+    "md5",
+    "renamer",
+    "replace"
+  ],
+  "author": "zuiwosuifeng@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwsf/gulp-md5-renamer/issues"
+  },
+  "homepage": "https://github.com/zwsf/gulp-md5-renamer#readme"
+}
