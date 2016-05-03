@@ -1,7 +1,7 @@
 {
   "name": "gulp-md5-renamer",
-  "version": "0.0.1",
-  "description": "use md5 rename the static resources",
+  "version": "0.0.2",
+  "description": "Add a MD5 fingerprint to a static resource and replace the reference to these resources in the HTML file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/zwsf/gulp-md5-renamer/issues"
   },
-  "homepage": "https://github.com/zwsf/gulp-md5-renamer#readme"
+  "homepage": "https://github.com/zwsf/gulp-md5-renamer#readme",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "glob": "7.0.3",
+    "gulp-util": "3.0.7",
+    "through2": "2.0.1"
+  }
 }
