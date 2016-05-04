@@ -77,15 +77,15 @@ Default: `10`
 
 ### path
 
-    Type: `String or Array`
-    Desc: `path of html files`
-    Default: `Null`
+Type: `String or Array`  
+Desc: `path of html files`  
+Default: `Null`
 
 ### mapping
 
-    Type: `Object`
-    Desc: `Define the mapping relationship between the special HTML file and the reference file`
-    Default: `Null`
+Type: `Object`  
+Desc: `Define the mapping relationship between the special HTML file and the reference file`  
+Default: `Null`
 
 ## TODO
     unit test
