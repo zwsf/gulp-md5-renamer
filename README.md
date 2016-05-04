@@ -88,15 +88,15 @@ Desc: `Define the mapping relationship between the special HTML file and the ref
 Default: `Null`
 
 ## Introduction
-    + The plugin is used on the JS and CSS of the final output. The reference of CSS in the page is `/path/to/index.css`, and finally replaced by `/path/to/index.[hash].css`. the reference of js in the page is `path/to/main.js`, finally replaced by `/path/to/main.[hash].js`.
-    + If the item name is the same as the HTML file name (if the HTML file is the index.html, it's catalog name), pass in the `path` parameter.
-    + If its are different, such as HTML's filename is landing_5.html, the reference to the static resource directory is the landing5. now pass in the `mapping` parameter
-    + 插件作用在最终产出的js和css上.页面中对css的引用为`/path/to/index.css`,插件作用后替换为`/path/to/index.hash.css`, 对js的引用为`/path/to/main.js`, 插件作用后替换为`/path/to/main.hash.js`
-    + 如果项目名与html文件名(若html文件为index.html其目录名)相同，则传入`path`参数即可.
-    + 如果二者不同，如html为landing_5.html，其引用的静态资源所在目录为landing5.二者不一致，此时传入`mapping`参数
-        ```
-        {landing5: 'landing_5.html'}
-        ```
++ The plugin is used on the JS and CSS of the final output. The reference of CSS in the page is `/path/to/index.css`, and finally replaced by `/path/to/index.[hash].css`. the reference of js in the page is `path/to/main.js`, finally replaced by `/path/to/main.[hash].js`.
++ If the item name is the same as the HTML file name (if the HTML file is the index.html, it's catalog name), pass in the `path` parameter.
++ If its are different, such as HTML's filename is landing_5.html, the reference to the static resource directory is the landing5. now pass in the `mapping` parameter
++ 插件作用在最终产出的js和css上.页面中对css的引用为`/path/to/index.css`,插件作用后替换为`/path/to/index.hash.css`, 对js的引用为`/path/to/main.js`, 插件作用后替换为`/path/to/main.hash.js`
++ 如果项目名与html文件名(若html文件为index.html其目录名)相同，则传入`path`参数即可.
++ 如果二者不同，如html为landing_5.html，其引用的静态资源所在目录为landing5.二者不一致，此时传入`mapping`参数
+    ```
+    {landing5: 'landing_5.html'}
+    ```
 
 ## TODO
     unit test
