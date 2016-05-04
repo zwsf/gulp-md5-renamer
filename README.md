@@ -98,7 +98,6 @@ Default: `Null`
 
 ## TODO
     unit test
-    demo
     support AMD style
 
 ## thanks & Inspired
