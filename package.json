@@ -16,6 +16,7 @@
     "renamer",
     "replace"
   ],
+  "gulpplugin": "md5 md5-rename md5-renamer gulp-md5-renamer",
   "author": "zuiwosuifeng@gmail.com",
   "license": "ISC",
   "bugs": {
