@@ -1,6 +1,6 @@
 {
   "name": "gulp-md5-renamer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Add a MD5 fingerprint to a static resource and replace the reference to these resources in the HTML file",
   "main": "index.js",
   "scripts": {
