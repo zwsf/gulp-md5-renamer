@@ -1,0 +1,27 @@
+{
+  "name": "gulp-md5-renamer-demo",
+  "version": "0.0.1",
+  "description": "the demo of gulp-md5-renamer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwsf/gulp-md5-renamer.git"
+  },
+  "keywords": [
+    "gulp-md5-renamer",
+    "demo"
+  ],
+  "author": "zuiwosuifeng@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwsf/gulp-md5-renamer/issues"
+  },
+  "homepage": "https://github.com/zwsf/gulp-md5-renamer#readme",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-md5-renamer": "0.0.2"
+  }
+}
