@@ -70,9 +70,9 @@ gulp.task('default', ['md5:js', 'md5:css']);
 ## API
 
 ### size
-    Type: `Number`
-    Desc: `the length of md5 value.`
-    Default: `10`
+Type: `Number`
+Desc: `the length of md5 value.`
+Default: `10`
 
 ### path
 
