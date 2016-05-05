@@ -14,7 +14,7 @@ module.exports = function (size, ifile, mapping) {
     size = size || 10;
     return through.obj(function (file, enc, cb) {
         if (file.isStream()) {
-            this.emit('error', new gutil.PluginError('gulp-debug', 'Streaming not supported'));
+            this.emit('error', new gutil.PluginError('gulp-md5-renamer', 'Streaming not supported'));
             return cb();
         }
 
